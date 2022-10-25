@@ -2,7 +2,7 @@
 
 ## Link
 
-- Live Site URL: []()
+- Live Site URL: [https://harshita1225.github.io/quote-of-the-day/](https://harshita1225.github.io/quote-of-the-day/)
 
 ## Project Specifications
 

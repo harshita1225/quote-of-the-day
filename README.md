@@ -1,19 +1,37 @@
 # Quote of the Day
 
+## Link
+
+- Live Site URL: []()
+
+## Project Specifications
+
 Create random quote app, that shows a random quote when ever the user loads the App(page) or clicks the get random quote button.
 
 1.  Create a function that returns a random quote from the array of
-    quotes that's given. Remember that there's a nice function for
-    random numbers in the MDN documentation for `Math.random()`.
-
-**Note:** _Sometimes it's a good idea to create multiple functions, that
-do one specific thing only, to make the code more readable and
-easier to maintain / extend._
+    quotes that's given.
 
 2.  Add a Random Quote button beneath the quote element. When the button is clicked, a new quote should be generated.
 
-3.  **Optional:** Style to your pleasing & feel free to load/use bootstrap via CDN.
+3.  with each random quote the background image is also changed randomly.
 
-> Hint: Refer to the representation below, for an idea of what your result should look like.
+#### Screenshots
 
-![demo](demo.gif)
+- Desktop layout
+  ![Desktop Layout](./img/shot1.png)
+
+- Tab Layout
+  ![Mobile Layout](./img/shot3.png)
+
+### Built with
+
+- Semantic HTML5 markup
+- Javascript
+- CSS
+- Flex box
+- Responsive design
+- Background images
+
+## Author
+
+- Website - [Harshita Joshi-Github](https://github.com/harshita1225)

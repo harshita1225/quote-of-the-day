@@ -8,29 +8,59 @@
 
     <style>
       body {
-        font-size: 1rem;
+        background-color: #444;
         font-family: "Segoe UI", sans-serif;
-        color: #444;
         display: flex;
         flex-direction: column;
+        align-items: center;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .quote-container {
+        width: 50rem;
+        height: 100vh;
+        background-image: url("https://source.unsplash.com/random");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 3px solid black;
+        box-shadow: 5px 5px 10px rgb(22, 20, 20);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
       }
       .input {
-        padding: 0.5rem;
-        margin-bottom: 1rem;
+        border: none;
+        width: 90%;
+        padding: 1rem;
+        font-size: 1.5rem;
+        word-wrap: break-word;
+        text-align: center;
+        background-color: white;
+        color: seagreen;
       }
+
       button {
         width: fit-content;
         padding: 0.5rem;
         background-color: #444;
         border: none;
         color: beige;
+        border: 2px solid black;
+        border-radius: 0.5rem;
       }
     </style>
   </head>
   <body>
-    <h1 class="heading">Quote of the day</h1>
-    <input type="text" class="input" />
-    <button type="submit">Random Quote</button>
-    <script type="module" src="index.js"></script>
+    <div class="quote-container">
+      <h1 class="heading">Quote of the day</h1>
+      <input type="text" class="input" />
+      <button type="submit">New Random Quote</button>
+    </div>
+    <script type="module" src="./index.js"></script>
   </body>
 </html>
